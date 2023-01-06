@@ -1,0 +1,149 @@
+body{
+	margin:0;
+	padding:0px;
+	background:url(../images//background//eiffel1.jpg) no-repeat;
+	height: 90.8vh;
+	background-size: 100% 100%;
+	text-align: center;
+}
+body h1{
+	margin-top: 7%; 
+}
+.container{
+	width: 40%;
+	height: 80%;
+	margin: -2% 27%;
+	padding: 40px;
+}
+.textbox
+{
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:20px 0;
+}
+.textbox input {
+	border:2px solid #000;
+	border-radius: 5px;
+	outline:none;
+	background: rgba(251, 204, 78, 0.5);
+	color:white;
+	font-size:18px;
+	width: 50%;
+	height: 30px;
+	
+}
+.textbox input::placeholder{
+	color: white;
+}
+.btn input{
+	margin-top: 10px;
+	width: 50%;
+	height: 40px;
+	border-radius: 8px;
+	transition: 0.6s ease;
+}
+.btn input:hover{
+	background-color: #FB4A0A;
+}
+.main{
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(135,206,250,0.4);
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  max-width: 1550px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+ul li{
+  display: inline;
+}
+
+.list{
+  position: fixed;
+  display: block;
+  top: 9px;
+  float: left;
+}
+
+.list li.logo img{
+  position: relative;
+  float: left;
+  top: -20px;
+  margin-left: -5%;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+
+}
+.search{
+  display: inline;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.search input[type=text]{
+  position: relative;
+  float: left;
+  top:-18px;
+  left: 5%;
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid #0000ff;
+  transition: 0.6s ease;
+}
+
+.search input[type=text]:hover{
+  background-color: #dcdcdc;
+}
+
+
+.list input[type=image]{
+  position: relative;
+  float: right;
+  top:-50px;
+  left: 2%;
+  margin-left: 20%; 
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid #00f;
+  transition: 0.6s ease;
+  background-color: #fff;
+}
+
+.list input[type=image]:hover{
+  background-color: #739ac5;
+}
+
+.list2{
+  position: relative;
+  top: -20px;
+  float: right;
+}
+
+.list2 li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.9s ease;
+}
+
+.list2 li a:hover{
+  background-color: #fff;
+  color: #000;
+
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

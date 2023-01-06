@@ -1,0 +1,309 @@
+body{
+	background-color: #00cc66; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.main{
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(135,206,250,0.4);
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  max-width: 1550px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+ul li{
+  display: inline;
+}
+
+.list{
+  position: fixed;
+  display: block;
+  top: 9px;
+  float: left;
+}
+
+.list li.logo img{
+  position: relative;
+  float: left;
+  top: -20px;
+  margin-left: -5%;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+
+}
+.search{
+  display: inline;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.search input[type=text]{
+  position: relative;
+  float: left;
+  top:-18px;
+  left: 5%;
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid #0000ff;
+  transition: 0.6s ease;
+}
+
+.search input[type=text]:hover{
+  background-color: #dcdcdc;
+}
+
+
+.list input[type=image]{
+  position: relative;
+  float: right;
+  top:-50px;
+  left: 2%;
+  margin-left: 20%; 
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid #00f;
+  transition: 0.6s ease;
+  background-color: #fff;
+}
+
+.list input[type=image]:hover{
+  background-color: #739ac5;
+}
+
+.list2{
+  position: relative;
+  top: -20px;
+  float: right;
+}
+
+.list2 li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.9s ease;
+}
+
+.list2 li a:hover{
+  background-color: #fff;
+  color: #000;
+
+}
+.container{
+	background-color: #7AFB96;
+	width: 95vw;
+	height: 90vh;
+	margin: 65px 35px 20px;
+}
+.container .headder{
+	background-color: #959B9E;
+	width: 95vw;
+	height: 10vh;
+	float: top;
+	text-align: center;
+}
+.container .headder h1{
+	padding: 20px;
+	color: #fff;
+}
+.container .menu-list{
+	background-color: #66ACFA;
+	width: 25vw;
+	height: 80vh;
+	float: left;
+}
+.container .menu-list a{
+	text-decoration: none;
+	background-color: #7AF171;
+	color: #000;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	border:2px solid #000;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.container .customer-workspace{
+	width: 70vw;
+	height: 80vh;
+	float: right;
+}
+.container .customer-workspace button{
+	background-color: #39B4EF;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border:2px solid #000;
+	border-radius: 7px;
+	padding: 8px 15px;
+	margin-left: 20px;
+}
+.container .customer-workspace .btn-tag{
+	margin: 25% 30%;
+	width: 40%;
+	height: 10%;
+	text-align: center;
+}
+.container #id1{
+	display: none;
+}
+.container .customer-workspace .delete-form{
+	display: none; 
+	width: 30vw;
+	height: 50vh;
+	margin: 10% 30%;
+	text-align: center;
+}
+.container .customer-workspace .delete-form input{
+	margin: 20px 0px;
+}
+.container .agent-workspace{
+	width: 70vw;
+	height: 80vh;
+	float: right;
+}
+.container .agent-workspace button{
+	background-color: #39B4EF;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border:2px solid #000;
+	border-radius: 7px;
+	padding: 8px 15px;
+	margin-left: 15px;
+}
+.container .agent-workspace .btn-tag{
+	margin: 25% 20%;
+	width: 60%;
+	height: 10%;
+	text-align: center;
+}
+
+.container #id2{
+	display: none;
+}
+.container .agent-workspace .insert-form{
+	display: none; 
+	width: 30vw;
+	height: 50vh;
+	margin: 10% 30%;
+	text-align: center;
+}
+.container .agent-workspace .insert-form input{
+	margin: 20px 0px;
+}
+.container .agent-workspace .delete-form{
+	display: none; 
+	width: 30vw;
+	height: 50vh;
+	margin: 10% 30%;
+	text-align: center;
+}
+.container .agent-workspace .delete-form input{
+	margin: 20px 0px;
+}
+.container .places-workspace{
+	width: 70vw;
+	height: 80vh;
+	float: right;
+}
+.container .places-workspace button{
+	background-color: #39B4EF;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border:2px solid #000;
+	border-radius: 7px;
+	padding: 8px 15px;
+	margin-left: 15px;
+}
+.container .places-workspace .btn-tag{
+	margin: 25% 15%;
+	width: 70%;
+	height: 10%;
+	text-align: center;
+}
+.container #id3{
+	display: none;
+}
+.container .places-workspace .insert-form{
+	display: none; 
+	width: 30vw;
+	height: 50vh;
+	margin: 10% 30%;
+	text-align: center;
+}
+.container .places-workspace .insert-form input{
+	margin: 20px 0px;
+}
+.container .places-workspace .delete-form{
+	display: none; 
+	width: 30vw;
+	height: 50vh;
+	margin: 10% 30%;
+	text-align: center;
+}
+.container .places-workspace .delete-form input{
+	margin: 20px 0px;
+}
+.container .hotels-workspace{
+	width: 70vw;
+	height: 80vh;
+	float: right;
+}
+.container .hotels-workspace button{
+	background-color: #39B4EF;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	border:2px solid #000;
+	border-radius: 7px;
+	padding: 8px 15px;
+	margin-left: 15px;
+}
+.container .hotels-workspace .btn-tag{
+	margin: 25% 15%;
+	width: 70%;
+	height: 10%;
+	text-align: center;
+}
+.container #id4{
+	display: none;
+}
+.container .hotels-workspace .insert-form{
+	display: none; 
+	width: 30vw;
+	height: 50vh;
+	margin: 10% 30%;
+	text-align: center;
+}
+.container .hotels-workspace .insert-form input{
+	margin: 20px 0px;
+}
+.container .hotels-workspace .delete-form{
+	display: none; 
+	width: 30vw;
+	height: 50vh;
+	margin: 10% 30%;
+	text-align: center;
+}
+.container .hotels-workspace .delete-form input{
+	margin: 20px 0px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

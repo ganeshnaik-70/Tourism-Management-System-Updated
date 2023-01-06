@@ -1,0 +1,161 @@
+body{
+	margin:0;
+	padding:0;
+	background: linear-gradient(305deg, rgba(224,36,214,1) 24%, rgba(31,70,153,1) 83%);
+	height: 84vh;
+	background-size: 100% 100%;
+}
+h1{
+	text-align: center;
+	height: 50px;
+	background-color: rgba(200,200,200,0.8);
+	font-size: 30px;
+}
+.feedback{
+	position: relative;
+	border: 2px solid grey;
+	border-radius: 5px;
+	background-color: #3C8BDB;
+	width: 50%;
+	height: 80%;
+	margin: 120px 25%;
+}
+.form-group{
+	margin: 30px 30%;
+}
+.form-group label{
+	margin:0px 20px; 
+}
+.form-group input{
+	border:2px solid #000;
+	border-radius: 5px;
+	width: 50%;
+	height: 20px;
+}
+.text1 label{
+	margin:0px 27px; 
+}
+.form-group .inputTextarea{
+	margin: 10px 20px;
+	width: 85%;
+	height: 90px;
+	border:1px solid #000;
+	border-radius: 5px;
+}
+.wrapper button{
+	margin: 0px 40%;
+	width: 20%;
+	height: 30px;
+	border-radius: 8px;
+	transition: 0.6s ease;
+}
+.wrapper button:hover{
+	background-color: green;
+}
+
+.main{
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(135,206,250,0.4);
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  max-width: 1550px;
+}
+
+ul{
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+ul li{
+  display: inline;
+}
+
+.list{
+  position: fixed;
+  display: block;
+  top: 9px;
+  float: left;
+}
+
+.list li.logo img{
+  position: relative;
+  float: left;
+  top: -20px;
+  margin-left: -5%;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+
+}
+.search{
+  display: inline;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.search input[type=text]{
+  position: relative;
+  float: left;
+  top:-18px;
+  left: 5%;
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid #0000ff;
+  transition: 0.6s ease;
+}
+
+.search input[type=text]:hover{
+  background-color: #dcdcdc;
+}
+
+
+.list input[type=image]{
+  position: relative;
+  float: right;
+  top:-50px;
+  left: 2%;
+  margin-left: 20%; 
+  padding: 4px;
+  border-radius: 10px;
+  border: 1px solid #00f;
+  transition: 0.6s ease;
+  background-color: #fff;
+}
+
+.list input[type=image]:hover{
+  background-color: #739ac5;
+}
+
+.list2{
+  position: relative;
+  top: -20px;
+  float: right;
+}
+
+.list2 li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.9s ease;
+}
+
+.list2 li a:hover{
+  background-color: #fff;
+  color: #000;
+
+}
+
+.list2 li.active-menu a{
+  background-color: #fff;
+  color: #000;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
